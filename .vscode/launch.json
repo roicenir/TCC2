@@ -3,6 +3,7 @@
   "configurations": [
     {
       "name": "Fileserver",
+      "cwd": "${workspaceFolder}/fileserver/backend",
       "program": "${workspaceFolder}/fileserver/backend/server.js",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
